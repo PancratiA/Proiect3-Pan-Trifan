@@ -23,6 +23,11 @@ public class PlatformaTeste {
         frame.setLayout(new FlowLayout(FlowLayout.CENTER, 20, 10)); // Center-align components with spacing
         Font customFont = new Font("Serif", Font.PLAIN, 20);
 
+
+
+
+
+        int dslut;
         JLabel label = new JLabel("Bine ai venit!");
         label.setFont(new Font(customFont.getName(), Font.BOLD, 24)); // Set a bigger font
         frame.add(label);
